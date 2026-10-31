@@ -1,0 +1,41 @@
+# segredos
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# JS / Next / Bun
+node_modules/
+.next/
+out/
+dist/
+*.tsbuildinfo
+next-env.d.ts
+
+# Python
+__pycache__/
+.venv/
+*.pyc
+
+# Java / Gradle / IntelliJ
+build/
+.gradle/
+run/
+.idea/
+*.iml
+
+# bancos locais e sistema
+*.db
+*.db-journal
+.DS_Store
+*.log
+
+# gerado por `bun run extrair` a partir dos jars do pack (assets da Mojang/mods: não versionar)
+public/tex/
+lib/dados/create.json
+
+# notas locais (não vão pro repo público)
+CLAUDE.md
+AGENTS.md
+notas/
